@@ -44,6 +44,11 @@ dir
 # MAC, Linux or Bash:
 ls -a
 
+# Clear terminal window:
+# Win:
+cls
+# MAC, Linux, bash:
+clear
 ```
 
 
@@ -51,6 +56,24 @@ ls -a
 
 Remote VCS:
 GitHub, GitLab, Bitbucket, AWS dev ops...
+
+```bash
+# Initialize git local repo:
+git init
+
+# list all changed/modified files:
+git status
+
+# prepare files for commit:
+git add .
+
+# Create commit:
+git commit -m "Initial commit as first commit"
+
+# Commit list:
+git log
+
+```
 
 
 ## 4. VIM text editor
