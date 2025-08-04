@@ -74,7 +74,4 @@ git commit -m "Initial commit as first commit"
 git log
 
 ```
-
-
-## 4. VIM text editor
    
