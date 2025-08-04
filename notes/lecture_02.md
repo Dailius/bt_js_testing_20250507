@@ -51,5 +51,13 @@ git branch -M main
 git push -u origin main
 ```
 
+```bash
+# send updates to GitHub
+git push
+
+# receive updates from GitHub 
+git pull
+```
+
 ## 3. Git branching
 
