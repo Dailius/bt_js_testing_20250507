@@ -1,12 +1,6 @@
 1. Checkout commits
 2. Git branching
 3. GitHub project settings
-4. QA Roadmap
-5. Learning and AI
-6. Requirements for QA specialist
-7. Testing types
-
-## 1. Checkout commits
 
 ## 1. Checkout commits
 ```bash
@@ -43,5 +37,22 @@ git branch
 # create new branch and checkout
 git checkout -b new_branch_name
 git checkout -b demo_branch_02
+
+# checkout into branch
+git checkout branch_name
+git checkout demo_branch_01
+git checkout main
+
+# delete branch locally
+git checkout some_other_branch_name
+git branch -D branch_name
+
+git checkout main
+git branch -D demo_branch_03
+
+# delete branch remote
+git push -d origin branch_name
+
+git push -d origin demo_branch_03
 
 ```
