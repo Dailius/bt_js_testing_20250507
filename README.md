@@ -9,7 +9,14 @@
 ## [Lecture 02](./notes/lecture_02.md)
 1. VIM text editor
 2. GitHub
-3. Git branching
 
-<!-- ## [Lecture 03](./notes/lecture_03.md) -->
-DEMO LINE
+## [Lecture 03](./notes/lecture_03.md)
+1. Checkout commits
+2. Git branching
+3. GitHub project settings
+4. QA Roadmap
+5. Learning and AI
+6. Requirements for QA specialist
+7. Testing types
+
+

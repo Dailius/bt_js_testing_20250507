@@ -1,6 +1,5 @@
 1. VIM text editor
 2. GitHub
-3. Git branching
 
 ## 1. VIM text editor
 Insert mode press key: `ESC` or `i`
@@ -51,5 +50,9 @@ git branch -M main
 git push -u origin main
 ```
 
-## 3. Git branching
+Clone project: 
+```bash
+git clone https://github.com/Dailius/demo-20250507.git
+git clone https://github.com/Dailius/bt_js_testing_20250507.git
+```
 
