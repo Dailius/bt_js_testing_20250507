@@ -6,3 +6,5 @@
 6. Requirements for QA specialist
 7. Testing types
 
+## 1. Checkout commits
+
