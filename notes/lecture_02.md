@@ -56,3 +56,14 @@ git clone https://github.com/Dailius/demo-20250507.git
 git clone https://github.com/Dailius/bt_js_testing_20250507.git
 ```
 
+```bash
+# send updates to GitHub
+git push
+
+# receive updates from GitHub 
+git pull
+```
+
+
+
+

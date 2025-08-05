@@ -10,6 +10,7 @@
 1. VIM text editor
 2. GitHub
 
+<<<<<<< HEAD
 ## [Lecture 03](./notes/lecture_03.md)
 1. Checkout commits
 2. Git branching
@@ -19,4 +20,7 @@
 6. Requirements for QA specialist
 7. Testing types
 
+=======
+<!-- ## [Lecture 03](./notes/lecture_03.md) -->
+>>>>>>> 8002aa8733342aa57fd1985ba6be6bd118fb96cd
 
