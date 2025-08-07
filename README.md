@@ -21,5 +21,11 @@
 3. Requirements for QA specialist
 4. Testing types
 
+## [Lecture 05](./notes/lecture_05.md)
+1. Repeat and check homework
+2. Testing levels
+3. UI/UX Figma/mockup
+4. Test Scenarios (TS) and Test Cases (TC)
+
 
 
