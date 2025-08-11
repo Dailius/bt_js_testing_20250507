@@ -27,5 +27,6 @@
 3. UI/UX Figma/mockup
 4. Test Scenarios (TS) and Test Cases (TC)
 
-
-
+## [Lecture 06](./notes/lecture_06.md)
+1. Repeat and check homework
+2. Test Scenarios (TS) and Test Cases (TC)

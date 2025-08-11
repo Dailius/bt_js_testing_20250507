@@ -1,0 +1,15 @@
+There is ToDo management application in https://todolist.james.am/ 
+Identify scenarios of this web app - DONE
+
+Create test cases for below listed TS and execute written tests within new file. 
+
+TS01 Create new todo
+TS02 Edit todo
+TS03 Change todo status
+TS04 Change all todo status
+TS05 Count active todo
+TS06 Filter
+TS07 Delete one todo
+TS08 Delete all completed todo
+TS09 Cashing data locally
+TS10 UI/UX
