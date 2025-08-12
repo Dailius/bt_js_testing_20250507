@@ -30,3 +30,13 @@
 ## [Lecture 06](./notes/lecture_06.md)
 1. Repeat and check homework
 2. Test Scenarios (TS) and Test Cases (TC)
+
+## [Lecture 07](./notes/lecture_07.md)
+1. Repeat and check homework
+2. Testing levels 
+3. FE/BE
+4. Boxing
+
+<!-- ## [Lecture 08](./notes/lecture_08.md)
+1. Repeat and check homework
+2. Software dev. methodologies: Waterfall, Agile -->

@@ -1,0 +1,7 @@
+There is ToDo management application in https://todolist.james.am/ 
+Identify scenarios of this web app - DONE
+
+Create test cases for below listed TS and execute written tests within new file - DONE
+
+Choose some xls of doc TC form and fill in with previously your written TC.
+
