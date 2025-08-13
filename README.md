@@ -37,6 +37,13 @@
 3. FE/BE
 4. Boxing
 
-<!-- ## [Lecture 08](./notes/lecture_08.md)
+## [Lecture 08](./notes/lecture_08.md)
 1. Repeat and check homework
-2. Software dev. methodologies: Waterfall, Agile -->
+2. Software dev. methodologies: Waterfall, Agile
+3. Regression, Smoke, Exploratory, Ad-hoc testing
+4. TC management systems (Testomat)
+
+<!-- ## [Lecture 09](./notes/lecture_09.md)
+1. Repeat and check homework
+2. Regression, Smoke, Exploratory, Ad-hoc testing
+3. TC management systems (Testomat) -->
