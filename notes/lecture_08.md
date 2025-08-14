@@ -39,7 +39,7 @@ https://en.wikipedia.org/wiki/Agile_software_development
 ![](../pictures/scrum_image.png)
 
 
-Free books form GitHub:
+Free books from GitHub:
 
 https://github.com/gaurav2013/Books 
 https://github.com/PacktPublishing/Agile-Project-Management   
