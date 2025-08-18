@@ -45,3 +45,14 @@
 1. Repeat and check homework
 2. Regression, Smoke, Exploratory, Ad-hoc testing
 3. TC management systems (Testomat)
+
+## [Lecture 10]()
+1. Repeat and check homework
+
+## [Lecture 11](./notes/lecture_11.md)
+1. Repeat and check homework
+2. Test plan
+3. Checklist
+4. Smoke testing
+   
+
