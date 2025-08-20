@@ -1,3 +1,6 @@
+Start:  2025-07-31
+End:    2025-10-23
+
 # 01 MANUAL TESTING
 
 ## [Lecture 01](./notes/lecture_01.md)
