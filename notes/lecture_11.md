@@ -133,6 +133,7 @@ TS08 Storage data
 [TP templates strongqa](https://strongqa.com/qa-portal/testing-docs-templates/test-plan)  
 [TP templates aws pdf](https://strongqa-production-assets.s3.amazonaws.com/uploads/document/doc/61/test-plan-template-05.pdf)  
 [TP template qatestlab](https://qatestlab.com/assets/Uploads/QATestLab-Testplan-Project-Name.pdf) 
+[TP template smartsheet](https://www.smartsheet.com/content/quality-assurance-templates?srsltid=AfmBOoqTmQO-TwjH3_J3tJtwhnEKEvIjl38GQkkhltp3SdB-pcOMaghS#project-quality-assurance-plan-template)  
 
 ## 3. Checklist
 

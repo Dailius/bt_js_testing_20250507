@@ -54,5 +54,13 @@
 2. Test plan
 3. Checklist
 4. Smoke testing
+
+## [Lecture 12](./notes/lecture_12.md)
+1. Repeat and check homework
+2. Checklist and smoke test
+3. Create Smoke test for mobile app.
+4. Defects and severities
+5. Bug lifecycle
+6. Jira
    
 
