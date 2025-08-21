@@ -65,5 +65,10 @@ End:    2025-10-23
 4. Defects and severities
 5. Bug lifecycle
 6. Jira
-   
 
+## [Lecture 13](./notes/lecture_13.md)
+1. Repeat and check homework
+2. Seven testing principles
+3. Boundary values
+4. Pesticide paradox
+5. Register bugs into Jira

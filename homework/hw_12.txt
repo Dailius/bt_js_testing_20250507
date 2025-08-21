@@ -1,3 +1,1 @@
-Create smoke test for https://coffee-cart.app/ for previous project.
-Create checklist with some excel form. 
-You may use previously used form with small modification.  
+Register 5 defects from https://academybugs.com/find-bugs/
