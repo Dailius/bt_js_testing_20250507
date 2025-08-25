@@ -72,3 +72,15 @@ End:    2025-10-23
 3. Boundary values
 4. Pesticide paradox
 5. Register bugs into Jira
+
+
+# 02 SYSTEM TESTING (API)
+## [Lecture 14](./notes/lecture_14.md)
+1. Repeat and check homework
+2. FE vs BE
+3. System integrations
+4. REST API
+5. Postman
+
+<!-- ## [Lecture 15](./notes/lecture_15.md)
+1. Repeat and check homework -->
