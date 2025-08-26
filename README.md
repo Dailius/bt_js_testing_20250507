@@ -82,5 +82,12 @@ End:    2025-10-23
 4. REST API
 5. Postman
 
-<!-- ## [Lecture 15](./notes/lecture_15.md)
+## [Lecture 15](./notes/lecture_15.md)
+1. Repeat and check homework
+2. HTTP/HTTPS
+3. Request methods and response codes
+4. API documentation
+5. Request queries
+
+<!-- ## [Lecture 16](./notes/lecture_16.md)
 1. Repeat and check homework -->
