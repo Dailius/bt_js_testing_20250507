@@ -89,5 +89,11 @@ End:    2025-10-23
 4. API documentation
 5. Request queries
 
-<!-- ## [Lecture 16](./notes/lecture_16.md)
-1. Repeat and check homework -->
+## [Lecture 16](./notes/lecture_16.md)
+1. Repeat and check homework
+
+<!-- ## [Lecture 17](./notes/lecture_17.md)
+1. Repeat and check homework
+2. JSON
+3. Postman scripts -->
+
