@@ -92,8 +92,11 @@ End:    2025-10-23
 ## [Lecture 16](./notes/lecture_16.md)
 1. Repeat and check homework
 
-<!-- ## [Lecture 17](./notes/lecture_17.md)
+## [Lecture 17](./notes/lecture_17.md)
 1. Repeat and check homework
 2. JSON
-3. Postman scripts -->
+3. Postman scripts
 
+
+<!-- ## [Lecture 18](./notes/lecture_18.md)
+1. Repeat and check homework -->

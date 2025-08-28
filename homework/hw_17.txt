@@ -1,0 +1,10 @@
+You have api documentation in 
+https://restful-booker.herokuapp.com/apidoc/index.html
+
+Write scripts to save token, booking id etc. in rest of requests.
+
+Write tests scripts:
+* status code
+* response parameter check types
+* response parameter check values
+* try to save created new value and use them later in tests
