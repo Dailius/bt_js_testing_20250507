@@ -105,6 +105,9 @@ End:    2025-10-23
 1. Repeat and check homework 
 2. Postman scripts
 
-<!-- ## [Lecture 20](./notes/lecture_20.md)
+## [Lecture 20](./notes/lecture_20.md)
 1. Repeat and check homework 
-2. Postman scripts-->
+2. Dynamic variables
+3. Newman tools
+4. GitHub Actions
+5. Newman reports
