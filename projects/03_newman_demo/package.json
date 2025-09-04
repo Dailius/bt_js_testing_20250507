@@ -1,0 +1,17 @@
+{
+  "name": "bt-250507_postman_jsonplaceholder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "npx newman run JsonPlaceHolder.json",
+    "api:env": "npx newman run JsonPlaceHolder.json -e env_JsonPlaceHolder.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "newman": "^6.2.1"
+  }
+}

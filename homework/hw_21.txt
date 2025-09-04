@@ -1,0 +1,21 @@
+https://newsapi.org/docs/endpoints/everything
+
+Actions with Postman
+1. Create new collection 'newapi_everything'
+2. Write tests for TS everything
+    * few requests might be split by positive/negative test (just few request ~2-3)
+    * provide apiKey into Request Headers by JavaScripts in 'pre-request' window
+    * also write test scripts like response code, check response body (types, values)
+        (every request should contain few tests)
+3. also use collection variables
+
+Actions with newman:
+1. initiate node and git project 
+2. use GLOBAL newman
+3. write scripts to run tests in package.json
+4. create commits accordingly
+
+Actions with GitHub + Actions:
+1. create GitHub repo and link with local git repo
+2. create GitHub action yml file
+3. configure action yml file in order to run tests with newman 

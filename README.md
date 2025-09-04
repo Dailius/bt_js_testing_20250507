@@ -111,3 +111,11 @@ End:    2025-10-23
 3. Newman tools
 4. GitHub Actions
 5. Newman reports
+
+## [Lecture 21](./notes/lecture_21.md)
+1. Newman tools
+2. GitHub Actions
+   
+<!-- 
+## [Lecture 22](./notes/lecture_22.md)
+1. Newman reports -->

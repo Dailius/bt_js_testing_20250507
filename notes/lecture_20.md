@@ -1,8 +1,7 @@
 1. Repeat and check homework 
 2. Dynamic variables
 3. Newman tools
-4. GitHub Actions
-5. Newman reports
+
 
 ## 1. Repeat and check homework 
 ## 2. Dynamic variables
@@ -45,5 +44,3 @@ npm i newman --save-dev # adds lib into devdependencies
 npm i -g newman  # adds lib globally.
 ```
 
-## 4. GitHub Actions
-## 5. Newman reports
