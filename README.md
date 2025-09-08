@@ -116,6 +116,11 @@ End:    2025-10-23
 1. Newman tools
 2. GitHub Actions
    
-<!-- 
 ## [Lecture 22](./notes/lecture_22.md)
-1. Newman reports -->
+1. Repeat and check homework
+2. Newman env parameter
+
+
+<!-- ## [Lecture 23](./notes/lecture_23.md)
+1. Repeat and check homework
+2. Newman reports -->
