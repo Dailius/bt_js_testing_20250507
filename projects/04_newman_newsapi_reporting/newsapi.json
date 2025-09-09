@@ -1,0 +1,259 @@
+{
+	"info": {
+		"_postman_id": "7191b013-fd75-438a-9656-9ff447568b18",
+		"name": "NewsApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15497739",
+		"_collection_link": "https://bt-js-test20241218.postman.co/workspace/bt_25_05_07_api-demo~03bef96e-51df-48fd-8661-daa8447f3f3d/collection/15497739-7191b013-fd75-438a-9656-9ff447568b18?action=share&source=collection_link&creator=15497739"
+	},
+	"item": [
+		{
+			"name": "Sources",
+			"item": [
+				{
+					"name": "positive",
+					"item": [
+						{
+							"name": "Sources_query_params",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"function setupHeaders(){\r",
+											"// const apiKey = pm.collectionVariables.get(\"apiKey\");\r",
+											"const apiKey = pm.environment.get(\"envApiKey\");\r",
+											" \r",
+											"const objectApiKey ={\r",
+											"    key: \"X-Api-Key\",\r",
+											"    value: apiKey\r",
+											"}\r",
+											"pm.request.headers.add(objectApiKey);\r",
+											" \r",
+											"};\r",
+											"setupHeaders();"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Response time is less than 1000ms\", function () {\r",
+											"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/v2/top-headlines/sources?category=business&country=us",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"v2",
+										"top-headlines",
+										"sources"
+									],
+									"query": [
+										{
+											"key": "apiKey",
+											"value": "{{apiKey}}",
+											"disabled": true
+										},
+										{
+											"key": "category",
+											"value": "business"
+										},
+										{
+											"key": "country",
+											"value": "us"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "negative",
+					"item": []
+				}
+			]
+		},
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "postivie",
+					"item": [
+						{
+							"name": "Sources_auth_query_param",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/v2/top-headlines/sources?apiKey=144e0c5c31324ea199b7e9cb410e96d0",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"v2",
+										"top-headlines",
+										"sources"
+									],
+									"query": [
+										{
+											"key": "apiKey",
+											"value": "144e0c5c31324ea199b7e9cb410e96d0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Sources_auth_headers",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-api-key",
+										"value": "{{apiKey}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/v2/top-headlines/sources",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"v2",
+										"top-headlines",
+										"sources"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Sources_auth_authorization",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{apiKey}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/v2/top-headlines/sources",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"v2",
+										"top-headlines",
+										"sources"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "negative",
+					"item": [
+						{
+							"name": "Sources_without_authentication",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/v2/top-headlines/sources",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"v2",
+										"top-headlines",
+										"sources"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://newsapi.org"
+		},
+		{
+			"key": "apiKey",
+			"value": ""
+		},
+		{
+			"key": "incorrectApiKey",
+			"value": ""
+		}
+	]
+}

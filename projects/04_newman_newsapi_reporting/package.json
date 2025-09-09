@@ -1,0 +1,15 @@
+{
+  "name": "04_newman_newsapi_reporting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "newman run newsapi.json -e env_newsapi.json",
+    "api:r": "newman run newsapi.json -e env_newsapi.json -r cli,json",
+    "api:rh": "npx newman run newsapi.json -e env_newsapi.json -r htmlextra"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
