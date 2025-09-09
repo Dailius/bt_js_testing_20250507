@@ -120,7 +120,6 @@ End:    2025-10-23
 1. Repeat and check homework
 2. Newman env parameter
 
-
-<!-- ## [Lecture 23](./notes/lecture_23.md)
-1. Repeat and check homework
-2. Newman reports -->
+## [Lecture 23](./notes/lecture_23.md)
+1. Newman reports
+2. Node express project 'express_usr_mng'
