@@ -1,0 +1,14 @@
+Run your api from project 'express_usr_mng'
+
+Write Postman requests with tests.
+
+1. GET user/
+    positive request (1)
+    add some test scripts
+
+2. GET user/:id
+    positive/negative requests (2)
+    add some test scripts
+
+
+

@@ -1,5 +1,5 @@
 1. Newman reports
-2. Node express project 'express_usr_mn
+2. Node express project 'express_usr_mn' 
 
 ## 1. Newman reports
 
@@ -30,3 +30,19 @@ npx newman run collection.json -r htmlextra
 
 
 ## 2. Node express project 'express_usr_mn
+
+New node.js project creation:  
+```bash
+npm init -y
+npm i express
+git init
+# copy/past .gitignore file into root directory
+git add .
+git commit -m "Initial commit"
+```
+
+Stop server: CTRL + C  
+
+
+
+
