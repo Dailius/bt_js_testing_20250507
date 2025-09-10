@@ -1,9 +1,20 @@
+## Node express project 'express_usr_mng'
+
+Install dependencies:
+```bash
+npm i concurrently wait-on start-server-and-test --save-dev
+npm i newman --save-dev
+npm i start-server-and-test --save-dev
+```
+
+https://www.npmjs.com/package/concurrently  
+https://www.npmjs.com/package/wait-on  
+https://www.npmjs.com/package/newman-reporter-htmlextra
+
+package.json file scripts details:  
+```json
 {
-  "name": "bt-250507_express_usr_mng",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
+"scripts": {
     "dev": "node --watch .",
     "test": "npx newman run postman.json -r htmlextra",
     "api:c": "concurrently -k \"npm run dev\" \"wait-on http://localhost:3011/user && npm run test\"",
@@ -14,20 +25,7 @@
     "api:sn": "start-server-and-test dev:n http://localhost:3011/user test:n",
     
     "api:st": "start-server-and-test \"node .\" http://localhost:3011/user \"npx newman run postman.json\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "concurrently": "^9.2.1",
-    "newman": "^6.2.1",
-    "newman-reporter-htmlextra": "^1.23.1",
-    "start-server-and-test": "^2.1.0",
-    "supertest": "^7.1.4",
-    "wait-on": "^8.0.4"
   }
 }
+```
+

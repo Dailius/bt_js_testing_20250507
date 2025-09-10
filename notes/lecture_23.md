@@ -43,6 +43,12 @@ git commit -m "Initial commit"
 
 Stop server: CTRL + C  
 
+https://www.npmjs.com/package/newman-reporter-htmlextra
+```bash
+npm i -g newman-reporter-htmlextra
+# or
+npm i -S newman-reporter-htmlextra
+```
 
 
 

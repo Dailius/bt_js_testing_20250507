@@ -123,3 +123,6 @@ End:    2025-10-23
 ## [Lecture 23](./notes/lecture_23.md)
 1. Newman reports
 2. Node express project 'express_usr_mng'
+
+## [Lecture 24](./notes/lecture_24.md)
+1. Node express project 'express_usr_mng'
