@@ -36,55 +36,88 @@ app.get("/user/:id", (req, res) => {
 });
 
 app.post("/user", (req, res) => {
-  const { username, email, password } = req.body;
+  try {
+    const { username, email, password } = req.body;
 
-  if (!username || !email || !password) {
-    return res
-      .status(400)
-      .json({ message: "Username, email and password are mandatory." });
+    if (!username || !email || !password) {
+      return res
+        .status(400)
+        .json({ message: "Username, email and password are mandatory." });
+    }
+
+    const newUser = {
+      id: db.maxid + 1,
+      username: username.trim(),
+      email: email.trim(),
+      password: password,
+    };
+
+    // username must be unique
+    if (db.users.find((user) => user.username === newUser.username)) {
+      return res.status(409).json({ message: "Username already exist." });
+    }
+
+    // username length max 35
+    if (newUser.username.length > 35) {
+      return res.status(400).json({ message: "Max username length is 35." });
+    }
+
+    // appropriate mail format
+    if (!newUser.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+      return res.status(400).json({ message: "Invalid email format" });
+    }
+
+    // password length min 8
+    if (newUser.password.length < 8) {
+      return res
+        .status(400)
+        .json({ message: "Invalid password, min length should be 8" });
+    }
+
+    db.users.push(newUser);
+    db.maxid = newUser.id;
+
+    res.status(201).json({
+      message: "User registered successfully",
+      user: {
+        id: newUser.id,
+        username: newUser.username,
+        email: newUser.email,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({ "error message": error.message });
+  }
+});
+
+app.post("/login", (req, res) => {
+  const reqBody = req.body;
+
+  if (!reqBody.username || !reqBody.password) {
+    return res.status(401).json({ message: "Incorrect username or password" });
   }
 
-  const newUser = {
-    id: db.maxid + 1,
-    username: username.trim(),
-    email: email.trim(),
-    password: password,
-  };
+  const userDetails = db.users.find(
+    (user) => user.username === reqBody.username
+  );
 
-  // username must be unique
-  if (db.users.find((user) => user.username === newUser.username)) {
-    return res.status(409).json({ message: "Username already exist." });
+  if (!userDetails || userDetails.password != reqBody.password) {
+    return res.status(401).json({ message: "Incorrect username or password" });
   }
 
-  // username length max 35
-  if (newUser.username.length > 35) {
-    return res.status(400).json({ message: "Max username length is 35." });
-  }
-
-  // appropriate mail format
-  if (!newUser.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-    return res.status(400).json({ message: "Invalid email format" });
-  }
-
-  // password length min 8
-  if (newUser.password.length < 8) {
-    return res
-      .status(400)
-      .json({ message: "Invalid password, min length should be 8" });
-  }
-
-  db.users.push(newUser);
-  db.maxid = newUser.id;
-
-  res.status(201).json({
-    message: "User registered successfully",
-    user: {
-      id: newUser.id,
-      username: newUser.username,
-      email: newUser.email,
-    },
+  res.status(200).json({
+    message: "Access granted",
+    username: userDetails.username,
   });
 });
+
+// new request -> update user details
+// {{baseUrl}}/user/:id
+// http method: patch
+
+// new request -> delete user
+// {{baseUrl}}/user/:id
+// http method: delete
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);

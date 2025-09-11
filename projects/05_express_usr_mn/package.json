@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "node --watch .",
-    "test": "npx newman run postman.json -r htmlextra",
+    "test": "npx newman run postman.json",
     "api:c": "concurrently -k \"npm run dev\" \"wait-on http://localhost:3011/user && npm run test\"",
     "api:s": "start-server-and-test dev http://localhost:3011/user test",
 

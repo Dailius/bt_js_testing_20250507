@@ -1,0 +1,9 @@
+Complete tasks below related with 'express_usr_mng'
+
+A. Add API functionality PATCH and DELETE as commented within file app.js
+
+Write Postman requests with positive/negative tests.
+At least fully cover 'create new user' functionality with test. 
+Export postman json file, commit and push.
+
+

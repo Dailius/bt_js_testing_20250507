@@ -126,3 +126,6 @@ End:    2025-10-23
 
 ## [Lecture 24](./notes/lecture_24.md)
 1. Node express project 'express_usr_mng'
+
+## [Lecture 25](./notes/lecture_25.md)
+1. Node express project 'express_usr_mng'
