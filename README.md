@@ -129,3 +129,9 @@ End:    2025-10-23
 
 ## [Lecture 25](./notes/lecture_25.md)
 1. Node express project 'express_usr_mng'
+
+
+# 02 SQL
+## [Lecture 26](./notes/lecture_26.md)
+1. Repeat and check homework 
+2. SQL
