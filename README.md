@@ -135,3 +135,7 @@ End:    2025-10-23
 ## [Lecture 26](./notes/lecture_26.md)
 1. Repeat and check homework 
 2. SQL
+
+# 02 SQL
+## [Lecture 27](./notes/lecture_27.md)
+1. SQL
