@@ -156,7 +156,6 @@ FROM film f
 RIGHT JOIN language l ON f.language_id = l.language_id
 ORDER BY l.language_id DESC;
 
-
 SELECT 
 	f.film_id,
 	f.title,
@@ -165,5 +164,3 @@ SELECT
 FROM  language l
 LEFT JOIN film f ON f.language_id = l.language_id
 ORDER BY l.language_id DESC;
-
-
