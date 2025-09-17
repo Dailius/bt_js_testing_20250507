@@ -136,6 +136,10 @@ End:    2025-10-23
 1. Repeat and check homework 
 2. SQL
 
-# 02 SQL
 ## [Lecture 27](./notes/lecture_27.md)
 1. SQL
+
+## [Lecture 28](./notes/lecture_28.md)
+1. SQL Array
+2. SQL Dates
+3. SQL JOIN
