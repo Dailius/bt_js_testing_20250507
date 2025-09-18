@@ -143,3 +143,10 @@ End:    2025-10-23
 1. SQL Array
 2. SQL Dates
 3. SQL JOIN
+
+## [Lecture 29](./notes/lecture_29.md)
+1. FULL OUTER JOIN
+2. CREATE TABLE
+3. INSERT INTO
+4. ALTER TABLE
+5. UPDATE TABLE
