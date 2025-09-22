@@ -150,3 +150,6 @@ End:    2025-10-23
 3. INSERT INTO
 4. ALTER TABLE
 5. UPDATE TABLE
+
+## [Lecture 30 ](./notes/lecture_30.md)
+1. project express_usr_auth
