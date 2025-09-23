@@ -131,7 +131,7 @@ End:    2025-10-23
 1. Node express project 'express_usr_mng'
 
 
-# 02 SQL
+# 03 SQL
 ## [Lecture 26](./notes/lecture_26.md)
 1. Repeat and check homework 
 2. SQL
@@ -151,5 +151,10 @@ End:    2025-10-23
 4. ALTER TABLE
 5. UPDATE TABLE
 
-## [Lecture 30 ](./notes/lecture_30.md)
+# 04 API authorization
+
+## [Lecture 30](./notes/lecture_30.md)
+1. project express_usr_auth+
+
+## [Lecture 31](./notes/lecture_31.md)
 1. project express_usr_auth
