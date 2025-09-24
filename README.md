@@ -158,3 +158,11 @@ End:    2025-10-23
 
 ## [Lecture 31](./notes/lecture_31.md)
 1. project express_usr_auth
+   1. Attacks
+   2. Password hashing
+
+## [Lecture 32](./notes/lecture_32.md)
+1. project express_usr_auth
+   1. JWT
+
+
