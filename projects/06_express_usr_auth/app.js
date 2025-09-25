@@ -110,6 +110,10 @@ app.post("/v1/login", async (req, res) => {
       [username]
     );
 
+    if(result.rows.length == 0){
+      throw setUpError("Invalid user name or password", 401);
+    }
+    
     const hashedPassword = result.rows[0].password;
     const isCorrectPassword = comparePassword(password, hashedPassword);
 

@@ -151,6 +151,7 @@ End:    2025-10-23
 4. ALTER TABLE
 5. UPDATE TABLE
 
+
 # 04 API authorization
 
 ## [Lecture 30](./notes/lecture_30.md)
@@ -164,5 +165,11 @@ End:    2025-10-23
 ## [Lecture 32](./notes/lecture_32.md)
 1. project express_usr_auth
    1. JWT
+   2. JWT vs API key
 
+
+# 05 Unit and Integration testings
+
+## [Lecture 33](./notes/lecture_33.md)
+1. Unit testing
 
