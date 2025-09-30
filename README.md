@@ -173,3 +173,14 @@ End:    2025-10-23
 ## [Lecture 33](./notes/lecture_33.md)
 1. Unit testing
 
+## [Lecture 34](./notes/lecture_34.md)
+1. Integration testing
+
+
+# 06 Cypress
+
+## [Lecture 35](./notes/lecture_35.md)
+1. Repeat and check homework
+2. Automation testing
+3. Cypress install
+4. First test with cypress
