@@ -46,5 +46,7 @@ describe("saucedemo website", () => {
       // cy.log($tag.text());
       expect($tag.text().trim()).equal('Products');
     });
+    
+    cy.get('[data-test="title"]').contains('products', { matchCase: false }).should('be.visible')
   });
 });
