@@ -1,0 +1,17 @@
+{
+  "name": "10_hw_automationexercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:o": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cypress": "^14.5.4",
+    "cypress-real-events": "^1.15.0"
+  }
+}
