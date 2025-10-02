@@ -190,3 +190,12 @@ End:    2025-10-23
 2. E2E tests vs integration tests.
 3. Get vs contains in cypress.
 4. Actions in cypress: type and click.
+
+## [Lecture 37](./notes/lecture_37.md)
+1. Repeat and check homework
+2. Element query
+3. Real Hover
+
+<!-- 2. Combinator selectors
+3. Readme
+4. xpath selector -->
