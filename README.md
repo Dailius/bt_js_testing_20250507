@@ -196,6 +196,11 @@ End:    2025-10-23
 2. Element query
 3. Real Hover
 
-<!-- 2. Combinator selectors
-3. Readme
-4. xpath selector -->
+## [Lecture 38](./notes/lecture_38.md)
+1. Final project requirements
+2. Repeat and check homework
+
+<!-- ## [Lecture 39](./notes/lecture_39.md)
+1. Readme
+2. HTTP Server run html files
+3. Combinator selectors -->
