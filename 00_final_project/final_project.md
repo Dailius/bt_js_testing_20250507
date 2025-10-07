@@ -55,3 +55,7 @@
 * https://petstore.swagger.io/
   
 
+## ADDITIONAL
+### Cloudflare and Security checker
+https://checkforcloudflare.selesti.com/  
+https://radar.cloudflare.com/scan  

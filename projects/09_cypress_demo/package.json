@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:open": "npx cypress open"
+    "server": "http-server -p 8086",
+    "cy:open": "npx cypress open",
+    "srv:cy:o": "concurrently -k \"npm run server\" \"wait-on http://127.0.0.1:8086 && npm run cy:open\" "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "cypress": "^14.5.4"
+    "concurrently": "^9.2.1",
+    "cypress": "^14.5.4",
+    "http-server": "^14.1.1",
+    "wait-on": "^9.0.1"
   }
 }

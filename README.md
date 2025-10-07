@@ -200,7 +200,9 @@ End:    2025-10-23
 1. Final project requirements
 2. Repeat and check homework
 
-<!-- ## [Lecture 39](./notes/lecture_39.md)
+## [Lecture 39](./notes/lecture_39.md)
 1. Readme
 2. HTTP Server run html files
-3. Combinator selectors -->
+
+<!-- ## [Lecture 40](./notes/lecture_40.md)
+1. Combinator selectors -->
