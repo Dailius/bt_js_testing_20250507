@@ -204,5 +204,7 @@ End:    2025-10-23
 1. Readme
 2. HTTP Server run html files
 
-<!-- ## [Lecture 40](./notes/lecture_40.md)
-1. Combinator selectors -->
+## [Lecture 40](./notes/lecture_40.md)
+1. Combinator selectors
+2. Single page apps (spa). Website vs web applications.
+3. React

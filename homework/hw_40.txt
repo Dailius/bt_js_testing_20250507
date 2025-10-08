@@ -1,0 +1,5 @@
+React app tic-tac-toe
+http://localhost:5173/
+
+Identify all possible TS
+Write automation tests for TC of few TS 
