@@ -208,3 +208,19 @@ End:    2025-10-23
 1. Combinator selectors
 2. Single page apps (spa). Website vs web applications.
 3. React
+
+## [Lecture 41](./notes/lecture_41.md)
+1. Repeat and check homework
+2. Intro to CI/CD
+3. Virtual machines
+4. Cypress run headless
+
+
+
+<!-- 5. npm start-server-and-test
+6. tic-tac-toe GitHub actions
+
+Cypress configuration
+Cypress commands
+xpath selector -->
+

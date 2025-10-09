@@ -8,7 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "cy:o": "cypress open"
+    "cy:o": "cypress open",
+    "cy:r": "cypress run",
+    "cy:r:ch": "cypress run --browser chrome",
+    "cy:r:ch_spec": "cypress run --browser chrome -- --spec  cypress/e2e/spec.cy.js"
   },
   "dependencies": {
     "react": "^19.0.0",
