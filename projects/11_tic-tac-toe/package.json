@@ -11,7 +11,8 @@
     "cy:o": "cypress open",
     "cy:r": "cypress run",
     "cy:r:ch": "cypress run --browser chrome",
-    "cy:r:ch_spec": "cypress run --browser chrome -- --spec  cypress/e2e/spec.cy.js"
+    "cy:r:ch_spec": "cypress run --browser chrome -- --spec  cypress/e2e/spec.cy.js",
+    "cy:r:all":"start-server-and-test dev http://localhost:5173/ cy:r:ch"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -27,6 +28,7 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "start-server-and-test": "^2.1.2",
     "vite": "^6.2.0"
   }
 }

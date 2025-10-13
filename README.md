@@ -215,12 +215,13 @@ End:    2025-10-23
 3. Virtual machines
 4. Cypress run headless
 
+## [Lecture 42](./notes/lecture_42.md)
+1. Repeat and check homework
+2. npm start-server-and-test
+3. tic-tac-toe GitHub actions
+4. xpath selector
+   
 
-
-<!-- 5. npm start-server-and-test
-6. tic-tac-toe GitHub actions
-
-Cypress configuration
-Cypress commands
-xpath selector -->
+<!-- 5. Cypress configuration
+6. Cypress commands -->
 
