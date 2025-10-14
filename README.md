@@ -221,7 +221,9 @@ End:    2025-10-23
 3. tic-tac-toe GitHub actions
 4. xpath selector
    
+## [Lecture 43](./notes/lecture_43.md)
+1. Final project progress
+2. Cypress configuration
+3. Cypress commands
 
-<!-- 5. Cypress configuration
-6. Cypress commands -->
 

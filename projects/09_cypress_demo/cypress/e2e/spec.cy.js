@@ -8,8 +8,18 @@ describe("template spec", () => {
 
 describe("saucedemo website", () => {
   it("Load login page", () => {
-    cy.visit("https://www.saucedemo.com/");
+    cy.visit("/");
+
+    Cypress.config({
+      defaultCommandTimeout: 2000,
+      viewportHeight: 900,
+    });
+
+    Cypress.config()
+
     cy.contains("Swag Labs");
+    cy.contains("Swag Labs").should("have.text", "asdfasdf");
+
     cy.contains("h4", "user");
     cy.contains("div", "user");
     cy.contains("div", "Swag Labs");
@@ -23,30 +33,35 @@ describe("saucedemo website", () => {
       .and("equal", "login_logo");
   });
 
-  it('Positive login with valid data', ()=>{
-    cy.visit("https://www.saucedemo.com/");
+  it("Positive login with valid data", () => {
+    cy.visit("/");
+    cy.viewport("iphone-8");
     // cy.get('user');
     // cy.get('user-name');
-    cy.get('#user-name');
-    cy.get('[id=user-name]');
-    cy.get('input[id=user-name]');
-    cy.get('[data-test=username]');
-    cy.get('input');
-    cy.get('.form_input');
+    cy.get("#user-name");
+    cy.get("[id=user-name]");
+    cy.get("input[id=user-name]");
+    cy.get("[data-test=username]");
+    cy.get("input");
+    cy.get(".form_input");
 
-    cy.get('[id=user-name]').type('standard_user');
-    cy.get('[id=password]').type('secret_sauce');
-    cy.get('input[id=login-button]').click();
+    cy.get("[id=user-name]").type("standard_user");
+    cy.get("[id=password]").type("secret_sauce");
+    cy.get("input[id=login-button]").click();
 
     // cy.get('span[data-test="title"]').contains('Product').should('be.visible');
     // cy.get('span[data-test="title"]').should('contain','Product').should('be.visible');
-    cy.get('span[data-test="title"]').should('be.visible').should("have.text", "Products");
+    cy.get('span[data-test="title"]')
+      .should("be.visible")
+      .should("have.text", "Products");
 
-    cy.get('span[data-test="title"]').then(($tag)=>{
+    cy.get('span[data-test="title"]').then(($tag) => {
       // cy.log($tag.text());
-      expect($tag.text().trim()).equal('Products');
+      expect($tag.text().trim()).equal("Products");
     });
-    
-    cy.get('[data-test="title"]').contains('products', { matchCase: false }).should('be.visible')
+
+    cy.get('[data-test="title"]')
+      .contains("products", { matchCase: false })
+      .should("be.visible");
   });
 });
