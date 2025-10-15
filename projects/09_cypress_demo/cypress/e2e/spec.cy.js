@@ -1,37 +1,47 @@
 /// <reference types="cypress" />
 
 describe("template spec", () => {
+  beforeEach(() => {
+    Cypress.config({
+      defaultCommandTimeout: 6000,
+      viewportHeight: 700,
+    });
+  });
+
   it("Open example.cypress.io page", () => {
-    cy.visit("https://example.cypress.io");
+    cy.visit("/");
+
+    cy.contains("Swag Labs");
+    cy.contains("Swag Labs").should("have.text", "asdfasdf");
   });
 });
 
 describe("saucedemo website", () => {
-  it("Load login page", () => {
-    cy.visit("/");
-
-    Cypress.config({
+  it(
+    "Load login page",
+    {
       defaultCommandTimeout: 2000,
-      viewportHeight: 900,
-    });
+      viewportHeight: 1100,
+    },
+    () => {
+      cy.visit("/");
 
-    Cypress.config()
+      cy.contains("Swag Labs");
+      cy.contains("Swag Labs").should("have.text", "asdfasdf");
 
-    cy.contains("Swag Labs");
-    cy.contains("Swag Labs").should("have.text", "asdfasdf");
+      cy.contains("h4", "user");
+      cy.contains("div", "user");
+      cy.contains("div", "Swag Labs");
 
-    cy.contains("h4", "user");
-    cy.contains("div", "user");
-    cy.contains("div", "Swag Labs");
+      cy.contains("div", "Swag Labs").should("be.visible");
+      cy.contains("h4", "Accepted").should("be.visible");
 
-    cy.contains("div", "Swag Labs").should("be.visible");
-    cy.contains("h4", "Accepted").should("be.visible");
-
-    cy.contains("div", "Swag Labs")
-      .should("be.visible")
-      .should("have.attr", "class")
-      .and("equal", "login_logo");
-  });
+      cy.contains("div", "Swag Labs")
+        .should("be.visible")
+        .should("have.attr", "class")
+        .and("equal", "login_logo");
+    }
+  );
 
   it("Positive login with valid data", () => {
     cy.visit("/");

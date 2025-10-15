@@ -224,6 +224,12 @@ End:    2025-10-23
 ## [Lecture 43](./notes/lecture_43.md)
 1. Final project progress
 2. Cypress configuration
-3. Cypress commands
 
+## [Lecture 44](./notes/lecture_44.md)
+1. Final project progress
+2. Cypress commands
+
+
+<!-- ## [Lecture 45](./notes/lecture_45.md)
+1. Final project progress -->
 

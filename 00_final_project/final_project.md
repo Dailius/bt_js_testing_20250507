@@ -59,3 +59,18 @@
 ### Cloudflare and Security checker  
 https://checkforcloudflare.selesti.com/  
 https://radar.cloudflare.com/scan  
+
+
+## Final projects presentation
+2025-10-20:
+Mantas
+
+2025-10-21:
+Deividas
+
+2025-10-22:
+Olga
+Greta
+
+2025-10-23:
+Edita
