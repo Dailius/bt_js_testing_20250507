@@ -229,7 +229,6 @@ End:    2025-10-23
 1. Final project progress
 2. Cypress commands
 
-
-<!-- ## [Lecture 45](./notes/lecture_45.md)
-1. Final project progress -->
+## [Lecture 45](./notes/lecture_45.md)
+1. Final project progress
 
